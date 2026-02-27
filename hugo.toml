@@ -1,7 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 theme = "hugo-PaperMod"
-
+[author]
+  name = "Aliyan"
+  email = "p250079@pwr.nu.edu.pk"
 # ---------------------------
 # Navigation Menu
 # ---------------------------
@@ -25,11 +27,3 @@ theme = "hugo-PaperMod"
 
   [[menu.main]]
     name = "Gi
-[params]
-  author = "aliyan"
-
-[author]
-  name = "Aliyan"
-  email = "p250079@pwr.nu.edu.pk"
-[params]
-  author = "aliyan"
