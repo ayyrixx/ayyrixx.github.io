@@ -1,13 +1,14 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 theme = "hugo-PaperMod"
+
 [author]
   name = "Aliyan"
   email = "p250079@pwr.nu.edu.pk"
+
 # ---------------------------
 # Navigation Menu
 # ---------------------------
-
 [menu]
 
   [[menu.main]]
@@ -26,4 +27,6 @@ theme = "hugo-PaperMod"
     weight = 3
 
   [[menu.main]]
-    name = "Gi
+    name = "GitHub"
+    url = "https://github.com/ayyrixx"
+    weight = 4
