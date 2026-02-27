@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Posts | ayyrixx</title>
-<meta name="keywords" content="">
-<meta name="description" content="Posts - ayyrixx">
+<title>How I Built My Hugo Blog on Arch Linux | ayyrixx</title>
+<meta name="keywords" content="hugo, arch-linux, blogging, static-site">
+<meta name="description" content="A step-by-step explanation of how I created and deployed my Hugo blog.">
 <meta name="author" content="Aliyan">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="http://localhost:1313/posts/hugo_setup/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.da3211e5ef867bf2b75fd5a6515cfed7195c011e8ab735694e203810a827097b.css" integrity="sha256-2jIR5e&#43;Ge/K3X9WmUVz&#43;1xlcAR6KtzVpTiA4EKgnCXs=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/hugo_setup/">
 <noscript>
     <style>
         #theme-toggle,
@@ -73,7 +72,7 @@
 
 </script>
 </head>
-<body class="list" id="top">
+<body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
@@ -109,7 +108,7 @@
             </li>
             <li>
                 <a href="http://localhost:1313/posts/" title="Posts">
-                    <span class="active">Posts</span>
+                    <span>Posts</span>
                 </a>
             </li>
             <li>
@@ -131,64 +130,71 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Posts
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Setting Up GitHub on Linux and Pushing Code
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Setting Up GitHub on Linux and Pushing Code In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.
-Step 1: Install Git First, install Git:
-sudo pacman -S git Verify installation:
-git --version Step 2: Configure Git Set your username and email:
-git config --global user.name &#34;ayyrixx&#34; git config --global user.email &#34;aliyanniazi374@gmail.com&#34; Check configuration:
-git config --list Step 3: Create a Repository on GitHub Login to GitHub Click New Repository Enter repository name Click Create Repository Step 4: Initialize Local Project Go to your project folder and run:
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-27 16:00:00 +0500 PKT'>February 27, 2026</span>&nbsp;·&nbsp;<span>Aliyan</span></footer>
-  <a class="entry-link" aria-label="post link to Setting Up GitHub on Linux and Pushing Code" href="http://localhost:1313/posts/github/"></a>
-</article>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      How I Built My Hugo Blog on Arch Linux
+    </h1>
+    <div class="post-description">
+      A step-by-step explanation of how I created and deployed my Hugo blog.
+    </div>
+    <div class="post-meta"><span title='2026-02-27 00:00:00 +0000 UTC'>February 27, 2026</span>&nbsp;·&nbsp;<span>Aliyan</span>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">My First Post
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Welcome 👋 Hello, my name is Aliyan Abdullah.
-This is my first post on my Hugo blog.
-I built this website to share my journey in programming, Linux, and technology.
-I am passionate about learning, building projects, and improving my technical skills every day.
-This blog will document my progress, experiments, and knowledge.
-Thank you for visiting my site — more posts are coming soon.
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2026-02-27 15:17:47 +0500 PKT'>February 27, 2026</span>&nbsp;·&nbsp;<span>Aliyan</span></footer>
-  <a class="entry-link" aria-label="post link to My First Post" href="http://localhost:1313/posts/my-first-post/"></a>
-</article>
+</div>
+  </header> 
+  <div class="post-content"><hr>
+<h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>In this post, I explain how I created my blog using Hugo on Arch Linux and deployed it successfully.</p>
+<hr>
+<h2 id="step-1-installing-hugo">Step 1: Installing Hugo<a hidden class="anchor" aria-hidden="true" href="#step-1-installing-hugo">#</a></h2>
+<p>I installed Hugo using pacman:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo pacman -S hugo
+</span></span></code></pre></div><p>Then I verified the installation:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo version
+</span></span></code></pre></div><hr>
+<h2 id="step-2-creating-a-new-hugo-site">Step 2: Creating a New Hugo Site<a hidden class="anchor" aria-hidden="true" href="#step-2-creating-a-new-hugo-site">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site myblog
+</span></span><span style="display:flex;"><span>cd myblog
+</span></span></code></pre></div><p>This created the basic Hugo project structure.</p>
+<hr>
+<h2 id="step-3-adding-a-theme">Step 3: Adding a Theme<a hidden class="anchor" aria-hidden="true" href="#step-3-adding-a-theme">#</a></h2>
+<p>I added a theme and configured it inside the <code>hugo.toml</code> file.</p>
+<hr>
+<h2 id="step-4-creating-a-new-post">Step 4: Creating a New Post<a hidden class="anchor" aria-hidden="true" href="#step-4-creating-a-new-post">#</a></h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new posts/my-second-blog.md
+</span></span></code></pre></div><p>Then I edited the generated file and added my content.</p>
+<hr>
+<h2 id="step-5-running-the-local-server">Step 5: Running the Local Server<a hidden class="anchor" aria-hidden="true" href="#step-5-running-the-local-server">#</a></h2>
+<p>To preview the website locally:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><p>Then I opened:</p>
+<pre tabindex="0"><code>http://localhost:1313
+</code></pre><hr>
+<h2 id="step-6-building-and-deploying">Step 6: Building and Deploying<a hidden class="anchor" aria-hidden="true" href="#step-6-building-and-deploying">#</a></h2>
+<p>To generate the static files:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><p>Then I pushed the changes to GitHub:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Added second blog post&#34;</span>
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><hr>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>This is how I built and deployed my Hugo blog. In future posts, I will explore customization, themes, and performance optimization.</p>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">How I Built My Hugo Blog on Arch Linux
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p> Introduction In this post, I explain how I created my blog using Hugo on Arch Linux and deployed it successfully.
-Step 1: Installing Hugo I installed Hugo using pacman:
-sudo pacman -S hugo Then I verified the installation:
-hugo version Step 2: Creating a New Hugo Site hugo new site myblog cd myblog This created the basic Hugo project structure.
-Step 3: Adding a Theme I added a theme and configured it inside the hugo.toml file.
-...</p>
+
   </div>
-  <footer class="entry-footer"><span title='2026-02-27 00:00:00 +0000 UTC'>February 27, 2026</span>&nbsp;·&nbsp;<span>Aliyan</span></footer>
-  <a class="entry-link" aria-label="post link to How I Built My Hugo Blog on Arch Linux" href="http://localhost:1313/posts/hugo_setup/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/hugo/">Hugo</a></li>
+      <li><a href="http://localhost:1313/tags/arch-linux/">Arch-Linux</a></li>
+      <li><a href="http://localhost:1313/tags/blogging/">Blogging</a></li>
+      <li><a href="http://localhost:1313/tags/static-site/">Static-Site</a></li>
+    </ul>
+  </footer>
 </article>
     </main>
     

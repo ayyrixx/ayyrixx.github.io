@@ -1,19 +1,64 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on My New Hugo Project</title>
+    <title>Posts on ayyrixx</title>
     <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on My New Hugo Project</description>
+    <description>Recent content in Posts on ayyrixx</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 15:17:47 +0500</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 16:00:00 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up GitHub on Linux and Pushing Code</title>
+      <link>http://localhost:1313/posts/github/</link>
+      <pubDate>Fri, 27 Feb 2026 16:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/github/</guid>
+      <description>&lt;h1 id=&#34;setting-up-github-on-linux-and-pushing-code&#34;&gt;Setting Up GitHub on Linux and Pushing Code&lt;/h1&gt;
+&lt;p&gt;In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;step-1-install-git&#34;&gt;Step 1: Install Git&lt;/h2&gt;
+&lt;p&gt;First, install Git:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify installation:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;step-2-configure-git&#34;&gt;Step 2: Configure Git&lt;/h2&gt;
+&lt;p&gt;Set your username and email:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ayyrixx&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.email &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;aliyanniazi374@gmail.com&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Check configuration:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --list
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;step-3-create-a-repository-on-github&#34;&gt;Step 3: Create a Repository on GitHub&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Login to GitHub&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;New Repository&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Enter repository name&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Create Repository&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;step-4-initialize-local-project&#34;&gt;Step 4: Initialize Local Project&lt;/h2&gt;
+&lt;p&gt;Go to your project folder and run:&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 27 Feb 2026 15:17:47 +0500</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;This is my first post.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;welcome-&#34;&gt;Welcome 👋&lt;/h1&gt;
+&lt;p&gt;Hello, my name is &lt;strong&gt;Aliyan Abdullah&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is my first post on my Hugo blog.&lt;br&gt;
+I built this website to share my journey in programming, Linux, and technology.&lt;/p&gt;
+&lt;p&gt;I am passionate about learning, building projects, and improving my technical skills every day.&lt;br&gt;
+This blog will document my progress, experiments, and knowledge.&lt;/p&gt;
+&lt;p&gt;Thank you for visiting my site — more posts are coming soon.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How I Built My Hugo Blog on Arch Linux</title>
+      <link>http://localhost:1313/posts/hugo_setup/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo_setup/</guid>
+      <description>A step-by-step explanation of how I created and deployed my Hugo blog.</description>
     </item>
   </channel>
 </rss>

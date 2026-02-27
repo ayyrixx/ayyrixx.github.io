@@ -6,6 +6,14 @@
     <description>Recent content in Arch-Linux on ayyrixx</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/arch-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Built My Hugo Blog on Arch Linux</title>
+      <link>http://localhost:1313/posts/hugo_setup/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo_setup/</guid>
+      <description>A step-by-step explanation of how I created and deployed my Hugo blog.</description>
+    </item>
   </channel>
 </rss>
