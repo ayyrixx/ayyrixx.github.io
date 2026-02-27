@@ -1,10 +1,26 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ayyrixx.github.io/'
 languageCode = 'en-us'
+title = 'ayyrixx'
+
 theme = "hugo-PaperMod"
+
+[params]
+  author = "Aliyan"
 
 [author]
   name = "Aliyan"
   email = "p250079@pwr.nu.edu.pk"
+
+[params.profileMode]
+    enabled = true
+    title = "Aliyan"
+    subtitle = ""
+    imageUrl = ""
+    imageTitle = "Profile Picture"
+    imageWidth = 200
+    imageHeight = 200
+
+
 
 # ---------------------------
 # Navigation Menu
