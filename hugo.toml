@@ -5,6 +5,35 @@ theme = "hugo-PaperMod"
 
 [params]
   author = "Aliyan"
+  description = "Linux Nerd"  # This adds the tagline under your name
+  keywords = "blog, linux, tech"
+  DateFormat = "2006-01-02"
+  
+  # Home page settings
+  [params.homeInfoParams]
+    Title = "Aliyan"
+    Content = "Linux Nerd"  # This shows up on the home page
+
+  # Social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/ayyrixx"
+
+# Profile mode on home page (like the screenshot)
+[params.profileMode]
+  enabled = true
+  title = "Aliyan"  # Your name as shown in the screenshot
+  subtitle = "Linux Nerd"  # The tagline under your name
+  imageUrl = ""  # Add your profile image URL here if you have one
+  imageTitle = "profile picture"
+
+  [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "/posts/"
+    
+  [[params.profileMode.buttons]]
+    name = "About"
+    url = "/about/"
 
 [author]
   name = "Aliyan"
@@ -24,14 +53,32 @@ theme = "hugo-PaperMod"
     name = "Posts"
     url = "/posts/"
     weight = 2
+    
+  [[menu.main]]
+    name = "Tags"  # Added Tags menu
+    url = "/tags/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Search"  # Added Search menu
+    url = "/search/"
+    weight = 4
 
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 3
+    weight = 5
 
   [[menu.main]]
     name = "GitHub"
     url = "https://github.com/ayyrixx"
-    weight = 4
+    weight = 6
 
+# Enable tags
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# For search functionality
+[outputs]
+  home = ["HTML", "RSS", "JSON"]  # JSON is needed for search
