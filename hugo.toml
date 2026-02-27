@@ -1,26 +1,11 @@
-baseURL = 'https://ayyrixx.github.io/'
-languageCode = 'en-us'
-title = 'ayyrixx'
-
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Aliyan's Blog"
 theme = "hugo-PaperMod"
-
-[params]
-  author = "Aliyan"
 
 [author]
   name = "Aliyan"
   email = "p250079@pwr.nu.edu.pk"
-
-[params.profileMode]
-    enabled = true
-    title = "Aliyan"
-    subtitle = ""
-    imageUrl = ""
-    imageTitle = "Profile Picture"
-    imageWidth = 200
-    imageHeight = 200
-
-
 
 # ---------------------------
 # Navigation Menu
@@ -46,3 +31,12 @@ theme = "hugo-PaperMod"
     name = "GitHub"
     url = "https://github.com/ayyrixx"
     weight = 4
+
+# ---------------------------
+# Params for PaperMod Theme
+# ---------------------------
+[params]
+  showReadingTime = true
+  showShareButtons = true
+  enableEmoji = true
+  mainSections = ["posts"]  # Important: Hugo will list all posts in this folder
