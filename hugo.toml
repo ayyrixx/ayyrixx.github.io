@@ -1,14 +1,35 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 theme = "hugo-PaperMod"
-title = 'My New Hugo Project'
 
+# ---------------------------
+# Navigation Menu
+# ---------------------------
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Gi
 [params]
   author = "aliyan"
 
 [author]
   name = "Aliyan"
   email = "p250079@pwr.nu.edu.pk"
-
-
-
+[params]
+  author = "aliyan"
