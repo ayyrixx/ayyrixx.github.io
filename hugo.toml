@@ -10,6 +10,17 @@ theme = "hugo-PaperMod"
   name = "Aliyan"
   email = "p250079@pwr.nu.edu.pk"
 
+[params.profileMode]
+    enabled = true
+    title = "Aliyan"
+    subtitle = "Greeting Worlds"
+    imageUrl = "ayyrixx.jpg"
+    imageTitle = "Aliyan Abdullah"
+    imageWidth = 200
+    imageHeight = 200
+
+
+
 # ---------------------------
 # Navigation Menu
 # ---------------------------

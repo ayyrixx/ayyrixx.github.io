@@ -6,15 +6,21 @@
     <description>Recent content on ayyrixx</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 16:00:00 +0500</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How I Built My Hugo Blog on Arch Linux</title>
+      <link>http://localhost:1313/posts/hugo_setup/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hugo_setup/</guid>
+      <description>A step-by-step explanation of how I created and deployed my Hugo blog.</description>
+    </item>
     <item>
       <title>Setting Up GitHub on Linux and Pushing Code</title>
       <link>http://localhost:1313/posts/github/</link>
-      <pubDate>Fri, 27 Feb 2026 16:00:00 +0500</pubDate>
+      <pubDate>Thu, 26 Feb 2026 16:00:00 +0500</pubDate>
       <guid>http://localhost:1313/posts/github/</guid>
-      <description>&lt;h1 id=&#34;setting-up-github-on-linux-and-pushing-code&#34;&gt;Setting Up GitHub on Linux and Pushing Code&lt;/h1&gt;
-&lt;p&gt;In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.&lt;/p&gt;
+      <description>&lt;p&gt;In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;step-1-install-git&#34;&gt;Step 1: Install Git&lt;/h2&gt;
 &lt;p&gt;First, install Git:&lt;/p&gt;
@@ -43,7 +49,7 @@
     <item>
       <title>My First Post</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Fri, 27 Feb 2026 15:17:47 +0500</pubDate>
+      <pubDate>Wed, 25 Feb 2026 15:17:47 +0500</pubDate>
       <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;welcome-&#34;&gt;Welcome 👋&lt;/h1&gt;
 &lt;p&gt;Hello, my name is &lt;strong&gt;Aliyan Abdullah&lt;/strong&gt;.&lt;/p&gt;
@@ -52,13 +58,6 @@ I built this website to share my journey in programming, Linux, and technology.&
 &lt;p&gt;I am passionate about learning, building projects, and improving my technical skills every day.&lt;br&gt;
 This blog will document my progress, experiments, and knowledge.&lt;/p&gt;
 &lt;p&gt;Thank you for visiting my site — more posts are coming soon.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>How I Built My Hugo Blog on Arch Linux</title>
-      <link>http://localhost:1313/posts/hugo_setup/</link>
-      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hugo_setup/</guid>
-      <description>A step-by-step explanation of how I created and deployed my Hugo blog.</description>
     </item>
   </channel>
 </rss>
