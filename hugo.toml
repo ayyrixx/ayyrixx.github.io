@@ -1,0 +1,14 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+theme = "hugo-PaperMod"
+title = 'My New Hugo Project'
+
+[params]
+  author = "aliyan"
+
+[author]
+  name = "Aliyan"
+  email = "p250079@pwr.nu.edu.pk"
+
+
+
