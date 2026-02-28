@@ -1,13 +1,12 @@
 +++
 date = '2026-02-26T16:00:00+05:00'
-title = 'Setting Up GitHub on Linux and Pushing Code'
+title = 'Git & GitHub: The Ultimate Beginner's Guide'
 draft = false
 +++
 
 In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.
 
 ---
-# Git & GitHub: The Ultimate Beginner's Guide
 
 ## First, Understand the Problem!
 
@@ -79,11 +78,3 @@ That's it.
 | `git push` | Upload to GitHub |
 
 ---
-
-## Practical Guide
-
-### 1. Install Git
-Go to: [https://git-scm.com](https://git-scm.com)
-Download, Install, then check:
-```bash
-git --version
