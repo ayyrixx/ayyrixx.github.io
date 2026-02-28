@@ -6,45 +6,86 @@
     <description>Recent content on ayyrixx</description>
     <generator>Hugo -- 0.156.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Feb 2026 16:00:00 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Instalation Guide for windows and Linux (Arch)</title>
+      <link>http://localhost:1313/posts/github_instalation/</link>
+      <pubDate>Sat, 28 Feb 2026 16:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/github_instalation/</guid>
+      <description>&lt;h1 id=&#34;installing-git-and-github-setup&#34;&gt;Installing Git and GitHub Setup&lt;/h1&gt;
+&lt;p&gt;This guide explains how to install &lt;strong&gt;Git&lt;/strong&gt; and connect it with your GitHub account on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows&lt;/li&gt;
+&lt;li&gt;Arch Linux&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;-windows-installation-guide&#34;&gt;🪟 Windows Installation Guide&lt;/h1&gt;
+&lt;h2 id=&#34;1-download-git&#34;&gt;1️⃣ Download Git&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Open your browser.&lt;/li&gt;
+&lt;li&gt;Go to: &lt;a href=&#34;https://git-scm.com/download/win&#34;&gt;https://git-scm.com/download/win&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Download the installer.&lt;/li&gt;
+&lt;li&gt;Run the &lt;code&gt;.exe&lt;/code&gt; file.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;2-install-git&#34;&gt;2️⃣ Install Git&lt;/h2&gt;
+&lt;p&gt;During installation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Keep default settings.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Next&lt;/strong&gt; until installation finishes.&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Finish&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;3-verify-installation&#34;&gt;3️⃣ Verify Installation&lt;/h2&gt;
+&lt;p&gt;Open &lt;strong&gt;Command Prompt&lt;/strong&gt; or &lt;strong&gt;PowerShell&lt;/strong&gt; and run:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If installed correctly, it will show the Git version.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Git &amp; GitHub: The Ultimate Beginner&#39;s Guide</title>
+      <link>http://localhost:1313/posts/github/</link>
+      <pubDate>Fri, 27 Feb 2026 16:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/github/</guid>
+      <description>&lt;p&gt;In this post, I explain how I set up Git and GitHub on my Linux system and pushed my code step by step.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;first-understand-the-problem&#34;&gt;First, Understand the Problem&lt;/h2&gt;
+&lt;p&gt;Imagine this situation:&lt;/p&gt;
+&lt;p&gt;You create a website.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Day 1:&lt;/strong&gt; It works perfectly.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Day 2:&lt;/strong&gt; You change something.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now the website breaks.&lt;br&gt;
+You want to go back to yesterday’s version…&lt;br&gt;
+&lt;strong&gt;But you can’t.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;That’s where Git helps.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;what-is-git&#34;&gt;What is Git?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Definition:&lt;/strong&gt;&lt;br&gt;
+Git is a version control system that saves your project step by step.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;assalamu-alaikum-&#34;&gt;Assalamu Alaikum 👋&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m Aliyan, a student developer passionate about Web Development and Programming.&lt;/p&gt;
+&lt;h3 id=&#34;skills&#34;&gt;Skills&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Git &amp;amp; GitHub&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;C / C++&lt;/li&gt;
+&lt;li&gt;HTML&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;goal&#34;&gt;Goal&lt;/h3&gt;
+&lt;p&gt;To grow consistently and become a professional developer.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>How I Built My Hugo Blog on Arch Linux</title>
       <link>http://localhost:1313/posts/hugo_setup/</link>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugo_setup/</guid>
       <description>A step-by-step explanation of how I created and deployed my Hugo blog.</description>
-    </item>
-    <item>
-      <title>Setting Up GitHub on Linux and Pushing Code</title>
-      <link>http://localhost:1313/posts/github/</link>
-      <pubDate>Thu, 26 Feb 2026 16:00:00 +0500</pubDate>
-      <guid>http://localhost:1313/posts/github/</guid>
-      <description>&lt;p&gt;In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;step-1-install-git&#34;&gt;Step 1: Install Git&lt;/h2&gt;
-&lt;p&gt;First, install Git:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -S git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Verify installation:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git --version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;step-2-configure-git&#34;&gt;Step 2: Configure Git&lt;/h2&gt;
-&lt;p&gt;Set your username and email:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.name &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;ayyrixx&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --global user.email &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;aliyanniazi374@gmail.com&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Check configuration:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git config --list
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id=&#34;step-3-create-a-repository-on-github&#34;&gt;Step 3: Create a Repository on GitHub&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Login to GitHub&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;New Repository&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;Enter repository name&lt;/li&gt;
-&lt;li&gt;Click &lt;strong&gt;Create Repository&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2 id=&#34;step-4-initialize-local-project&#34;&gt;Step 4: Initialize Local Project&lt;/h2&gt;
-&lt;p&gt;Go to your project folder and run:&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
