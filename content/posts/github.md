@@ -7,118 +7,83 @@ draft = false
 In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.
 
 ---
+# Git & GitHub: The Ultimate Beginner's Guide
 
-## Step 1: Install Git
+## First, Understand the Problem!
 
-First, install Git:
+Imagine this situation:
 
-```bash
-sudo pacman -S git
-```
+You create a website.
+- **Day 1:** It works perfectly.
+- **Day 2:** You change something.
 
-Verify installation:
+Now the website breaks.
+You want to go back to yesterday's version...
+**But you cannot.**
 
+---
+
+## What is Git?
+
+**Definition:** Git is a tool that saves your project **step by step**.
+It remembers:
+- **what** you changed
+- **when** you changed it
+- **who** changed it
+
+**Simple Meaning:** Git = Save history of your project.
+
+**Real Life Example:** Think about a video game. Every time you pass a level, the game saves your progress. If you lose, you restart from the last save point.
+**Git works the same way.** It saves your project so you can go back anytime.
+
+---
+
+## What is GitHub?
+
+**Definition:** GitHub is a website where you upload your code.
+
+**Simple meaning:**
+- **Git** = Save on your Computer
+- **GitHub** = Save on Internet
+
+---
+
+## Why we must Learn Git?
+- Because in **real jobs**
+- Developers work in **teams**
+- Everyone pushes code **daily**
+- Companies use Git
+**Without Git → No professional development.**
+
+---
+
+## How Git Actually Works
+
+There are only **3 simple steps**:
+1. **Add**
+2. **Commit**
+3. **Push**
+
+That's it.
+
+---
+
+## Git Commands Summary
+
+| Command | What it does |
+|---------|-------------|
+| `git init` | Start tracking your project |
+| `git status` | Check what changed |
+| `git add .` | Add all files to staging |
+| `git commit -m "message"` | Save changes with message |
+| `git push` | Upload to GitHub |
+
+---
+
+## Practical Guide
+
+### 1. Install Git
+Go to: [https://git-scm.com](https://git-scm.com)
+Download, Install, then check:
 ```bash
 git --version
-```
-
----
-
-## Step 2: Configure Git
-
-Set your username and email:
-
-```bash
-git config --global user.name "ayyrixx"
-git config --global user.email "aliyanniazi374@gmail.com"
-```
-
-Check configuration:
-
-```bash
-git config --list
-```
-
----
-
-## Step 3: Create a Repository on GitHub
-
-1. Login to GitHub
-2. Click **New Repository**
-3. Enter repository name
-4. Click **Create Repository**
-
----
-
-## Step 4: Initialize Local Project
-
-Go to your project folder and run:
-
-```bash
-git init
-```
-
-Add files:
-
-```bash
-git add .
-```
-
-Commit files:
-
-```bash
-git commit -m "Initial commit"
-```
-
----
-
-## Step 5: Connect Local Repository to GitHub
-
-Copy your repository URL from GitHub and run:
-
-```bash
-git remote add origin https://github.com/ayyrixx/repository-name.git
-```
-
-Verify remote:
-
-```bash
-git remote -v
-```
-
----
-
-## Step 6: Push Code to GitHub
-
-```bash
-git branch -M main
-git push -u origin main
-```
-
-Now your project is successfully uploaded.
-
----
-
-## Step 7: Updating Code Later
-
-Whenever you make changes:
-
-```bash
-git add .
-git commit -m "Updated project"
-git push
-```
-
----
-
-## Conclusion
-
-Setting up GitHub on Linux involves:
-
-* Installing Git
-* Configuring user details
-* Initializing repository
-* Connecting to GitHub
-* Pushing code
-
-With this workflow, I can now manage and track all my projects efficiently.
