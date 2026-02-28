@@ -1,9 +1,8 @@
 +++
-date = '2026-02-26T16:00:00+05:00'
+date = '2026-02-27T16:00:00+05:00'
 title = 'Git & GitHub: The Ultimate Beginner's Guide'
 draft = false
 +++
-
 In this post, I explain how I set up GitHub on my Linux system and pushed my code step by step.
 
 ---

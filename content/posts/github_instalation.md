@@ -1,6 +1,6 @@
 +++
-date = '2026-02-26T16:00:00+05:00'
-title = 'Git & GitHub: The Ultimate Beginner's Guide'
+date = '2026-02-28T16:00:00+05:00'
+title = 'Instalation Guide for windows and Linux (Arch)'
 draft = false
 +++
 # Installing Git and GitHub Setup
