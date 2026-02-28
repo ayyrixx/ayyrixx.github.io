@@ -6,7 +6,7 @@ draft = false
 
 # Welcome 👋
 
-Hello, my name is **Aliyan Abdullah**.
+Hello, my Name is **Aliyan Abdullah**.
 
 This is my first post on my Hugo blog.  
 I built this website to share my journey in programming, Linux, and technology.
